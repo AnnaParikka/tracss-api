@@ -54,7 +54,6 @@ while current_date <= end_date:
 
   cdm_params = {
     "object1ObjectDesignator": norad_ids,
-    #"object1OperatorOrganization": "ICEYE",
     "creationDate": f"{start_utc}...{end_utc}",
   }
 
